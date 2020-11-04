@@ -443,3 +443,6 @@ $RECYCLE.BIN/
 
 ## APPSETTINGS
 appsettings.json
+
+## certs
+certs/*
