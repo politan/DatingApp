@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{C5DB85DE-AED6-4E24-8882-FBB229847CB3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1E58A5E8-1B76-499E-9107-CD8B79FC6D73}"
+ProjectSection(SolutionItems) = preProject
+	docs\commit_instructions.txt = docs\commit_instructions.txt
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

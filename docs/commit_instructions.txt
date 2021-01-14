@@ -1,0 +1,14 @@
+All work should be implemented on "develop" branch.
+
+When work is done we need to push our code to GitHub and merge with 'main' branch'.
+
+### PUSH DEVELOP BRANCH TO GITHUB ###
+git fetch
+git commit -m "current work description"
+git push origin develop
+
+### MERGE DEVELOP BRANCH AND PUSH TO GITHUB"
+git checkout main
+git pull
+git merge --no-ff develop
+git push origin main
